@@ -1,4 +1,12 @@
 {
+	"homepage": "https://github.com/wahyupermadi99-boop/eppidpablv3",
+  "scripts": {
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "name": "react-example",
   "private": true,
   "version": "0.0.0",
